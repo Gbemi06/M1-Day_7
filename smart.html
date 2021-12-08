@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>smartphone shop website</title>
+    </head>
+    <body>
+        <button onclick="changeHeaderText()">change H1 Text</button>
+        <h1 id = "head"> strive smartphone website</h1>
+        <table BORDER="3">
+            
+                <TH COLSPAN="10">
+                    <H3><BR>smartphone list</H3>
+                 </TH>
+            <TR>
+                <TD>Name of Phone</TD>
+                <TD>Description of item</TD>
+                <TD>Price</TD>
+                <TD colspan = 1>Photo</TD>
+                <TD>Amazon Link </TD>
+             </TR>
+             <TR>
+                <TD>Iphone 13</TD>
+                <TD>Made by Apple</TD>
+                <TD>1,000 euros</TD>
+                <TD><img src="C:\Pics\H.gif" alt="" border=3 height=100 width=100></img></td>
+                <TD colspan = 4><a href="https://www.gsmarena.com/apple_iphone_13_pro_max-pictures-11089.php">iphone 13 specification</a> </TD>
+             </TR>
+             <TR>
+                <TD>Samsung</TD>
+                <TD>Galaxy Note 20</TD>
+                <TD>1,100 euros</TD>
+                <TD><img src="C:\Pics\H.gif" alt="" border=3 height=100 width=100></img></td>
+                <TD><a href="https://www.gsmarena.com/samsung_galaxy_note20_ultra-10355.php">samsung note specification</a> </TD>
+             </TR>
+             <TR>
+                <TD>Huawei</TD>
+                <TD>Nova 20</TD>
+                <TD>700 euros</TD>
+                <<TD><img src="C:\Pics\H.gif" alt="" border=3 height=100 width=100></img></td>
+                <TD><a href="https://www.gsmarena.com/huawei_nova_9-11121.php">Huawei A+ specification</a></TD>
+             </TR>
+             <TR>
+                <TD>LG</TD>
+                <TD>W41 Pro</TD>
+                <TD>900 euros</TD>
+                <TD><img src="C:\Pics\H.gif" alt="" border=3 height=100 width=100></img></td>
+                <TD><a href="https://www.gsmarena.com/lg_w41_pro-10742.php">LG specification</a></TD>
+             </TR>
+             <TR>
+                <TD>HTC</TD>
+                <TD>U20</TD>
+                <TD>600 euros</TD>
+                <TD><img src="C:\Pics\H.gif" alt="" border=3 height=100 width=100></img></td>
+                <TD><a href="https://www.gsmarena.com/htc_u20_5g-10298.php">HTC U20 specification</a></TD>
+             </TR>
+        </table>
+
+        <script type="text/javascript">
+
+            const changeHeaderText = function() {
+      
+              
+              let headerNode = document.getElementById("head")
+              alert("hello")
+              
+              headerNode.innerText = "Lexus Computer Institute"
+              alert("hello")
+            }
+           
+            
+        </script>
+
+    </body>
+</html>
